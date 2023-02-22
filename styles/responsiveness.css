@@ -1,0 +1,14 @@
+@media screen and (max-width: 507px) {
+  body {
+    display: block;
+  }
+  .container {
+    flex-direction: column;
+    border-radius: unset;
+    height: 100vh;
+    overflow: scroll;
+  }
+  .result-container {
+    border-radius: 0 0 30px 30px;
+  }
+}
